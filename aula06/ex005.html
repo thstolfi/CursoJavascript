@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiros Passos com DOM</title>
+    <title>Document</title>
     <style>
         body{
-            background-color: rgb(58, 58, 131);
+            background-color: brown;
+            text-align: center;
+            padding-top: 30px;
             color: white;
             font-family: Arial;
         }
     </style>
 </head>
 <body>
-    <h1>Iniciando Estudos DOM</h1>
-    <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
-    <div>Clique em mim</div>
+
     <script>
+        var nome = window.prompt("Qual é seu nome?")
+        document.writeln(`Olá, <strong>${nome}</strong>. Seu nome tem ${nome.length} letras <br>`)
+        document.writeln(`Seu nome em letras maíusculas: ${nome.toUpperCase()}`)
     </script>
 </body>
 </html>
