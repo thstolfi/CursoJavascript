@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body{
     background: rgb(60, 60, 237);
-    
+    font-family: 'Roboto';
 }
 header{
     color: #fcfcfc;
@@ -18,4 +20,8 @@ footer{
     color: #fcfcfc;
     text-align: center;
     font-style: italic;
+}
+div{
+    text-align: center;
+    padding: 8px;
 }
