@@ -1,6 +1,6 @@
 body{
     background: rgb(60, 60, 237);
-    
+    font-family: 'Roboto';
 }
 header{
     color: #fcfcfc;
@@ -18,4 +18,7 @@ footer{
     color: #fcfcfc;
     text-align: center;
     font-style: italic;
+}
+img{
+    width: 280px;
 }
