@@ -6,6 +6,9 @@ header{
     color: #fcfcfc;
     text-align: center;
 }
+select{
+    width: 150px;
+}
 section{
     background-color: #fcfcfc;
     border-radius: 10px;
